@@ -9,6 +9,9 @@
 class Administrative: public Person {
 private:
   double monthlySalary;
+
+
+  
 };
 
 

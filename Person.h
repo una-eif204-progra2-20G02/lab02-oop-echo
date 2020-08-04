@@ -31,7 +31,7 @@ class Person {
   void setFirstNanme(string);
   void setLastName(string);
   void setDocumentId(int);
-  virtual dobule salary() = 0;
+  virtual double salary() = 0;
   
 
 
