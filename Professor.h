@@ -14,12 +14,14 @@ double commissionRate;
 
 public:
 Professor(double = 0, double = 0);
+Professor(const string ="", const string = "", int = 0, double = 0.0, double = 0.0);
+virtual ~Professor();
 double getMonthlySalary();
 void setMonthlySalary(double);
 double getCommissionRate();
 void setCommissionRate(double);
-double salary();
-string toString();
+double salary() const;
+string toString() const;
 };
 
 #endif //LAB02_OOP_PROFESSOR_H

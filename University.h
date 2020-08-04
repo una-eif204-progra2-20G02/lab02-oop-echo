@@ -11,6 +11,13 @@
 
 class University {
 
+private:
+    string name;
+    Professor* professor;
+    Administrative* administrative;
+    
+
+ 
 };
 
 

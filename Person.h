@@ -22,16 +22,16 @@ class Person {
   int documentId;
 
   public:
-  Person();
   Person(string= "", string = "", int = 0);
   virtual ~Person();
   string getFirstName();
 	string getLastName();
-	string getDocumentId();
-  void setFirstNanme(string);
+	int getDocumentId();
+  void setFirstName(string);
   void setLastName(string);
   void setDocumentId(int);
-  virtual double salary() = 0;
+  virtual double salary() const = 0;
+  virtual string toString() const =0;
   
 
 
