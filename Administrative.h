@@ -7,7 +7,8 @@
 #include "Person.h"
 
 class Administrative: public Person {
-
+private:
+  double monthlySalary;
 };
 
 
