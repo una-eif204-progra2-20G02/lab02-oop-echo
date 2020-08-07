@@ -15,7 +15,15 @@ private:
     string name;
     Professor* professor;
     Administrative* administrative;
-    
+
+public:
+
+    string getName();
+    void setName(string);
+    Professor* getProfessor();
+    void setProfessor(Professor*);
+
+
 
  
 };
