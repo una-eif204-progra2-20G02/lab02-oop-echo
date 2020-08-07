@@ -24,4 +24,3 @@ string Administrative::toString() {
     s<<"Doc Id: "<<getDocumentId()<<" Monthly Salary: "<<getMonthlySalary()<<endl;
     return s.str();
 }
-

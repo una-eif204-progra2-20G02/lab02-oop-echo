@@ -22,6 +22,7 @@ public:
     void setName(string);
     Professor* getProfessor();
     void setProfessor(Professor*);
+    //COmentario para merge
 
 //Otro comentario
 
