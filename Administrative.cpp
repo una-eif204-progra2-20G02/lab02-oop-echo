@@ -14,4 +14,14 @@ Administrative::Administrative(const string firstName, const string lastName, in
 {
   this->monthlySalary = monthlySalary;
 }
-Administrative::setMonthlySalary(double )
+void Administrative::setMonthlySalary(double salary) { monthlySalary = salary; }
+
+double Administrative::getMonthlySalary() { return monthlySalary; }
+
+string Administrative::toString() {
+    stringstream s;
+    s<<"Administrative Information: "<<getFirstName()<<endl;
+    s<<"Doc Id: "<<getDocumentId()<<" Monthly Salary: "<<getMonthlySalary()<<endl;
+    return s.str();
+}
+
