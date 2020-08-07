@@ -15,9 +15,11 @@ private:
     string name;
     Professor* professor;
     Administrative* administrative;
+    vector<Professor*> professorList;
+    vector<Administrative*> administrativeList;
 
 public:
-
+    University(const string = "", Professor* = NULL, Administrative* = NULL);
     string getName();
     void setName(string);
     Professor* getProfessor();

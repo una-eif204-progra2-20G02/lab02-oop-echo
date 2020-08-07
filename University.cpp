@@ -5,6 +5,11 @@
 #include <sstream>
 #include "University.h"
 
+University::University(const string nm, Professor * pp, Administrative * aa)
+: name(nm), professor(pp), administrative(aa){
+
+
+}
 
 string University::getName() {
     return name;
