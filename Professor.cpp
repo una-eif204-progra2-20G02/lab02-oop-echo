@@ -6,11 +6,6 @@
 #include <sstream>
 #include "Professor.h"
 
-Professor::Professor(double ms, double cr){
-  monthlySalary = ms;
-  commissionRate = cr;
-}
-
 Professor::Professor(const string fn, const string ln, int d, double ms, double cr) : Person(fn,ln,d){
   monthlySalary = ms;
   commissionRate = cr;
