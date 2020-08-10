@@ -20,15 +20,15 @@ Person:: ~Person(){
 
 //Métodos get
 
-string Person:: getFirstName(){
+string Person:: getFirstName() const {
   return firstName;
 }
 
-string Person:: getLastName(){
+string Person:: getLastName() const {
   return lastName;
 }
 
-int Person:: getDocumentId(){
+int Person:: getDocumentId() const {
   return documentId;
 }
 

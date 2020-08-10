@@ -24,9 +24,9 @@ class Person {
   public:
   Person(string= "", string = "", int = 0);
   virtual ~Person();
-  string getFirstName();
-	string getLastName();
-	int getDocumentId();
+  string getFirstName() const;
+	string getLastName() const;
+	int getDocumentId() const;
   void setFirstName(string);
   void setLastName(string);
   void setDocumentId(int);

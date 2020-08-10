@@ -22,12 +22,18 @@ public:
     University(const string = "", Professor* = NULL, Administrative* = NULL);
     string getName();
     void setName(string);
+
+    //Metodos de "Professor"
     Professor* getProfessor();
     void setProfessor(Professor*);
-    //COmentario para merge
+    void addProfessor(Professor*);
+    vector<Professor*> getListProfessor();
 
-//Otro comentario
-//Prueba nombre de usuario
+    //Metodos de "Administrative"
+    Administrative* getAdministrative;
+    void setAdministrative(Administrative*);
+    void addAdministrative(Administrative*);
+    vector<Administrative*> getListAdministrative();
 
 
  

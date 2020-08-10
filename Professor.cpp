@@ -37,8 +37,9 @@ double Professor::salary() const{
 
 string Professor::toString() const{
   stringstream s;
-  s << "Monthly Salary: "<<monthlySalary<<"..."<<endl; 
-  s << "Commission Rate: "<<commissionRate<<"..."<<endl;
-  s << "Salary: "<<salary()<<endl;
+  s << "Professor Information: "<<getFirstName()<<" "<<getLastName()<<endl;
+  s << "Doc. ID: "<<getDocumentId()<<" "<< "Monthly Salary: "<<monthlySalary<<endl;
+ // s << "Commission Rate: "<<commissionRate<<"..."<<endl;
+ // s << "Salary: "<<salary()<<endl;
   return s.str();
 }
