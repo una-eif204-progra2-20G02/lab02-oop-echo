@@ -3,3 +3,48 @@
 //
 
 #include "Person.h"
+#include <iostream>
+#include <sstream>
+
+
+Person::Person(string _firstName, string _lastName, int _id){
+  firstName= _firstName;
+  lastName= _lastName;
+  documentId= _id;
+
+}
+
+Person:: ~Person(){
+
+}
+
+//Métodos get
+
+string Person:: getFirstName() const {
+  return firstName;
+}
+
+string Person:: getLastName() const {
+  return lastName;
+}
+
+int Person:: getDocumentId() const {
+  return documentId;
+}
+
+//Métodos set
+
+void Person:: setFirstName(std::string _firstName){
+  firstName= _firstName;
+}
+
+void Person:: setLastName(std::string _LastName){
+  lastName= _LastName;
+}
+
+void Person:: setDocumentId(int _document){
+  documentId= _document;
+
+}
+
+//Prueba
